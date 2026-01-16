@@ -103,7 +103,12 @@ enabled = false
 
 [build]
 writeStats = true
+command = "hugo"
+publish = "public"
 
+[build.environment]
+  HUGO_VERSION = "0.154.3
+  
 [params.languages.selector.disable]
 footer = false
 header = false
