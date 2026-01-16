@@ -1,0 +1,45 @@
+{{ define "main" }}
+<main id="main-content">
+  <div class="container" style="max-width: 900px; margin: 0 auto; padding: 2rem 20px;">
+    <div class="row" style="justify-content: center;">
+      <div class="col-12" style="max-width: 900px; margin: 0 auto;">
+        
+        <article class="blog-post">
+          <header class="post-header" style="margin-bottom: 2rem;">
+            <h1 style="margin-bottom: 0.5rem;">{{ .Title }}</h1>
+            
+            <div class="post-meta" style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+              
+              {{ if .Params.tags }}
+              <span style="margin-left: 1rem;">
+                {{ range .Params.tags }}
+                <span style="background: #f0f0f0; padding: 2px 8px; border-radius: 3px; margin-right: 5px; font-size: 0.85rem;">{{ . }}</span>
+                {{ end }}
+              </span>
+              {{ end }}
+            </div>
+          </header>
+
+          <div class="post-content" style="line-height: 1.8;">
+            {{ .Content }}
+          </div>
+
+          {{ if .Params.canonicalUrl }}
+          <div style="margin-top: 2rem; padding: 1rem; background: #f8f9fa; border-left: 4px solid #478079;">
+            <p style="margin: 0; font-size: 0.9rem;">
+              Originally published at: <a href="{{ .Params.canonicalUrl }}" target="_blank" rel="noopener" style="color: #478079;">{{ .Params.canonicalUrl }}</a>
+            </p>
+          </div>
+          {{ end }}
+
+          <nav style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+            <a href="/blog" style="color: #478079; font-weight: 600; text-decoration: none;">← Back to Blog</a>
+          </nav>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

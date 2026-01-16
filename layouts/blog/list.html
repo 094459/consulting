@@ -1,0 +1,60 @@
+{{ define "main" }}
+<main id="main-content">
+  <div class="container" style="max-width: 900px; margin: 0 auto;">
+    <div class="row" style="justify-content: center;">
+      <div class="col-12" style="max-width: 900px; margin: 0 auto;">
+        
+        {{ if .Content }}
+        <div class="blog-intro" style="margin-bottom: 2rem;">
+          {{ .Content }}
+        </div>
+        {{ end }}
+
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
+        
+        {{ range $paginator.Pages }}
+        <article class="blog-post-summary" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e0e0e0;">
+          <h2 style="margin-bottom: 0.5rem;">
+            <a href="{{ .Permalink }}" style="color: #478079; text-decoration: none;">{{ .Title }}</a>
+          </h2>
+          
+          <div class="post-meta" style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ if .Params.tags }}
+            <span style="margin-left: 1rem;">
+              {{ range .Params.tags }}
+              <span style="background: #f0f0f0; padding: 2px 8px; border-radius: 3px; margin-right: 5px; font-size: 0.85rem;">{{ . }}</span>
+              {{ end }}
+            </span>
+            {{ end }}
+          </div>
+          
+          {{ if .Summary }}
+          <div class="post-summary" style="margin-bottom: 1rem;">
+            {{ .Summary }}
+          </div>
+          {{ end }}
+          
+          <a href="{{ .Permalink }}" style="color: #478079; font-weight: 600;">Read more →</a>
+        </article>
+        {{ end }}
+
+        {{ if gt $paginator.TotalPages 1 }}
+        <nav class="pagination" style="display: flex; justify-content: center; margin-top: 2rem;">
+          <ul style="display: flex; list-style: none; padding: 0; gap: 0.5rem;">
+            {{ if $paginator.HasPrev }}
+            <li><a href="{{ $paginator.Prev.URL }}" style="padding: 0.5rem 1rem; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #478079;">← Previous</a></li>
+            {{ end }}
+            
+            {{ if $paginator.HasNext }}
+            <li><a href="{{ $paginator.Next.URL }}" style="padding: 0.5rem 1rem; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #478079;">Next →</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

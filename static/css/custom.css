@@ -1,0 +1,208 @@
+/* Custom CSS for centered blog layout - Force full width */
+
+/* Override Bootstrap grid for blog pages */
+.page-blog .container {
+    max-width: 100% !important;
+}
+
+/* Force blog content to be centered and full width */
+.page-blog .row {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 !important;
+}
+
+/* Make all columns full width and centered */
+.page-blog .row > [class*="col-"] {
+    flex: 0 0 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+}
+
+/* Specific targeting for blog list and single pages */
+.page-blog-list .row > [class*="col-"],
+.page-blog-single .row > [class*="col-"] {
+    flex: 0 0 100% !important;
+    max-width: 900px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+/* Center blog post content */
+.post-content,
+.blog-content {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 2rem 20px !important;
+}
+
+/* Center blog list items */
+.blog-list article,
+.blog-posts article {
+    max-width: 900px !important;
+    margin: 0 auto 2rem auto !important;
+    padding: 0 20px !important;
+}
+
+/* Remove any sidebar spacing */
+.blog-sidebar,
+.sidebar {
+    display: none !important;
+}
+
+/* Center pagination */
+.pagination {
+    max-width: 900px !important;
+    margin: 2rem auto !important;
+    padding: 0 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* Override any flex column reverse */
+.page-blog .flex-column-reverse {
+    flex-direction: column !important;
+}
+
+/* Ensure proper width on all screen sizes */
+@media (min-width: 768px) {
+    .page-blog .col-md-9,
+    .page-blog .col-md-8,
+    .page-blog .col-md-6 {
+        flex: 0 0 100% !important;
+        max-width: 900px !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-blog .col-lg-9,
+    .page-blog .col-lg-8,
+    .page-blog .col-lg-6 {
+        flex: 0 0 100% !important;
+        max-width: 900px !important;
+        margin: 0 auto !important;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-blog .row > [class*="col-"],
+    .post-content,
+    .blog-list article {
+        max-width: 100% !important;
+        padding: 0 15px !important;
+    }
+}
+
+
+
+/* Logo styling for dark and light modes */
+.header .navbar-brand img {
+    width: 312px !important;
+    max-height: 80px !important;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.navbar-brand .logo {
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Dark mode adjustments - invert colors for better visibility */
+[data-theme="dark"] .navbar-brand .logo {
+    filter: brightness(1.1);
+}
+
+/* Light mode adjustments */
+[data-theme="light"] .navbar-brand .logo {
+    filter: none;
+}
+
+/* Auto mode - follows system preference */
+@media (prefers-color-scheme: dark) {
+    [data-theme="auto"] .navbar-brand .logo {
+        filter: brightness(1.1);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    [data-theme="auto"] .navbar-brand .logo {
+        filter: none;
+    }
+}
+
+/* Ensure navbar can accommodate larger logo */
+.navbar {
+    min-height: 100px !important;
+}
+
+.navbar-brand {
+    padding: 10px 0 !important;
+}
+
+
+/* Reduce whitespace on homepage */
+.rad-showcase {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: auto !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.showcase-section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+/* Reduce top padding after fixed header */
+body.home main,
+.home .rad-showcase {
+    padding-top: 0 !important;
+    margin-top: 100px !important; /* Just enough for fixed header */
+}
+
+/* Reduce section padding on homepage */
+.home .section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+/* Reduce gap between content and footer */
+main {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+footer {
+    margin-top: 0 !important;
+}
+
+/* Remove extra space below showcase content */
+.rad-showcase .container {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Reduce platform links margin */
+.platform-links {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+/* Tighten up the showcase section spacing */
+.showcase-section .row {
+    margin-bottom: 0 !important;
+}
+
+/* Remove bottom margin from last element before footer */
+.rad-showcase + footer,
+main + footer,
+section:last-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}

@@ -1,0 +1,73 @@
+## Meta tags
+- id: "meta_title"
+  translation: "Beachgeek Technology Consulting"
+- id: "meta_description"
+  translation: "Technology consulting, developer advocacy, and expertise in cloud technologies, generative AI, and open source software. 35+ years experience reaching 3.2M developers globally."
+- id: "meta_keywords"
+  translation: "technology consulting, developer advocacy, AWS, cloud computing, generative AI, open source, Apache Airflow, developer tools"
+- id: "meta_author"
+  translation: "Ricardo Sueiras"
+- id: "meta_image"
+  translation: "/images/logo.png"
+
+## Header
+
+- id: "logo_alt"
+  translation: "Beachgeek logo"
+
+- id: "logo_text1"
+  translation: ""
+
+- id: "logo_text2"
+  translation: ""
+
+## General
+- id: "skipToMainContent"
+  translation: "Skip to main content"
+
+- id: "toggle_navigation"
+  translation: "Toggle navigation"
+
+## Footer
+- id: "footer_notice"
+  translation: "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+
+- id: "language"
+  translation: "Language"
+
+- id: "toggle_theme"
+  translation: "Toggle theme"
+
+- id: "theme_light"
+  translation: "☀️ Light"
+- id: "theme_dark"
+  translation: "🌑 Dark"
+- id: "theme_auto"
+  translation: "✨ Auto"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Beachgeek Technology Consulting"
+
+- id: "head_description"
+  translation: "Technology consulting, developer advocacy, and expertise in cloud technologies, generative AI, and open source software. 35+ years experience reaching 3.2M developers globally."
+
+
+## Blog
+- id: "read_more"
+  translation: "Read more"
+
+- id: "published_on"
+  translation: "Published on "
+
+- id: "continue_reading"
+  translation: "Continue reading"
+
+## 404 Page
+- id: "404_title"
+  translation: "Page not found"
+- id: "404_description"  
+  translation: "Sorry, but the page you were looking for could not be found."
+- id: "404_button"
+  translation: "Back to homepage"
+
