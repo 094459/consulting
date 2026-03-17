@@ -7,8 +7,6 @@ categories = ["Technical"]
 canonicalUrl = "https://dev.to/aws/zero-to-shipped-a-year-in-review-3in9"
 +++
 
-## A year of Zero to Shipped
-
 I am at [Build Stuff](https://buildstuff.events/pages/agenda) doing my live coding talk, Zero to Shipped in 30 minutes. I have done this "talk" many times this year, and as I look back to January when I did the same session at [PyCon+Web](https://www.pyconweb.com/) in Berlin, what amazes me is how far AI Coding Assistants have come in such a short period of time.
 
 Back then I used Amazon Q Developer (pre agentic mode), and a lot has changed. At Build Stuff I did the same talk, but now I am using [Kiro](https://kiro.dev) and [Kiro CLI](https://kiro.dev/cli/). After the talk I had a lot of folk who asked me to write down the good practices so I could share with them. Whilst we wait for the video to appear, this is that post. Whether you are at Build Stuff or not, you can follow along as I share how I was able to go from Zero to Shipped in 30 minutes. The idea is to build a finished working application, that is ready to ship to AWS. I have tried different applications over the last 11 months, but at Build Stuff I created a simple fact checking application - we need more trust in the world!

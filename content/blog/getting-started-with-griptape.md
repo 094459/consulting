@@ -6,8 +6,6 @@ tags = []
 categories = ["Technical"]
 +++
 
-## Getting started with Griptape
-
 **Getting gnarly with AI**
 
 When I was much much younger, I was known to (very occasionally) drop an ollie, kick-turn, or very occasionally dare a drop in on my trusty skateboard. Thanks to the grip tape, my shoes would stick to the board, and gave me the confidence I could try these tricks. I was always grateful to that grip tape and who knew all these years later, I would become re-aquatinted with it (albeit in a different form!)

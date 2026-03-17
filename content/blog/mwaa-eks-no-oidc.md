@@ -6,7 +6,6 @@ tags = ["Apache Airflow", "mwaa", "Amazon EKS", "Kubernetes"]
 categories = ["Technical"]
 +++
 
-### Configuring the KubernetesPodOperator on Managed Workflows for Apache Airflow (MWAA) - non OIDC Amazon EKS Clusters
 
 Today I came across an interesting question around the use of the KubernetesPodOperator working on EKS Clusters where you have not configured OIDC. They had followed my blog post, and when it came to running the DAG, they got the following error:
 

@@ -6,8 +6,6 @@ tags = []
 categories = ["Technical"]
 +++
 
-## Working with Managed Workflows for Apache Airflow (MWAA) and Amazon Redshift 
-
 I was recently [looking at some Stack Overflow questions](https://stackoverflow.com/questions/tagged/mwaa) from the [AWS Collective](https://stackoverflow.com/collectives/aws) and saw a number of folk having questions about the integration between Amazon Redshift and Managed Workflows for Apache Airflow (MWAA). I thought I would put together a quick post that might help folk address what I saw were some of the common challenges.
 
 There is some code that accompanies this post, which you can find at the GitHub repository [cdk-mwaa-redshift](https://github.com/094459/cdk-mwaa-redshift). 

@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "aws", "kubernetes"]
 categories = ["Technical"]
 +++
 
-### Introduction
-
 The Apache Airflow slack channel is a vibrant community of open source builders that is a great source of feedback, knowledge and answers to problems and use cases you might have when trying to do stuff with Apache Airflow. This week I picked up on someone seeing errors with Amazon EKS, and so I thought what better time to try out the new Apache Airflow 2.x version that was recently launched in Amazon Managed Workflows for Apache Airflow (MWAA).
 
 In this post, I will explore one of the code examples in the 

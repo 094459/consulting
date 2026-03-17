@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "mwaa", "Amazon EKS", "Kubernetes"]
 categories = ["Technical"]
 +++
 
-### Running KubernetesPodOperator in different AWS accounts
-
 > **update August, 14th**
 
 I wanted to update to newer version of MWAA, so I have tested the original blog post against EKS 1.24 and MWAA version 2.4.3. I also had a few messages about whether this would work across different AWS regions. The good news is that it does. I have also put together a repo for this [here](https://github.com/094459/mwaa-eks)

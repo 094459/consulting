@@ -6,8 +6,6 @@ tags = ["g-suite", "SSO", "AWS SSO"]
 categories = ["Technical"]
 +++
 
-# update-July 28th
-
 > The ssosync tool has had a lot of interest and the community has updated the tool. This means that you should refer to the project home page https://github.com/awslabs/ssosync and check out the README.md for what changes you might need to make to get this tool working.
 
 

@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "mwaa", "AWS KMS"]
 categories = ["Technical"]
 +++
 
-### Introduction
-
 In a [previous post](https://dev.to/aws/using-aws-cdk-to-deploy-your-amazon-managed-workflows-for-apache-airflow-environment-12cf), I shared how you can using AWS CDK to provision your Apache Airflow environments using the Managed Workflows for Apache Airflow service (MWAA). 
 
 I was contacted this week by Michael Grabenstein, who flagged an issue with the code in that post. The post used code that configured a kms key for the MWAA environment, but when trying to deploy the app it would fail with the following error:

@@ -4,4 +4,4 @@ date: 2023-01-01
 draft: false
 ---
 
-Whilst working on various projects for customers, we share insights, lessons learned, or practical hands on guidance. These blogs are provided "as is", and you should use good judgement when following.
+Find  out more about some of the interesting technologies and projects beachgeek consulting can help you with by reading some of our in depth technical blogs.

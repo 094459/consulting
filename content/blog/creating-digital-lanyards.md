@@ -6,8 +6,6 @@ tags = []
 categories = ["Technical"]
 +++
 
-## Experimenting with digital lanyards
-
 As someone who attends events on a regular basis, I have spent a fair bit of time over the years looking at interesting ways to engage with attendees. One of the problems I was looking to solve was how do I share useful information with attendees without having to interrupt the conversations (something that typically happens as I try and find those links on my mobile phone). 
 
 I am always looking at interesting new devices that might help, and recently I was drawn to an announcement from Pimoroni about a device called the [Badger2040](https://learn.pimoroni.com/article/getting-started-with-badger-2040), a low cost e-Ink display that was combined with a [Raspberry Pi Pico controller](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html).

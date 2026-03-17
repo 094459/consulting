@@ -6,10 +6,6 @@ tags = ["blog", "Apache Airflow"]
 categories = ["Technical"]
 +++
 
-### Contributing to Apache Airflow
-
-#### Introduction
-
 In this series of posts, I am going to share what I learn as embark on my first upstream contribution to the Apache Airflow project. The purpose is to show you how typical open source projects like Apache Airflow work, how you engage with the community to orchestrate change and hopefully inspire more people to contribute to this open source project. I will post regular updates as a series of posts, as the journey unfolds.
 
 But as always, we need to set the stage and start with our reason for doing so.

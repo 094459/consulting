@@ -6,8 +6,6 @@ tags = []
 categories = ["Technical"]
 +++
 
-### VSCode and Apache Airflow
-
 In this short post, I wanted to highlight how you can use a VSCode plugin to work with a local running instance of Apache Airflow to improve the developer experience. This post was inspired by a tweet from [Kaxil Naik](https://twitter.com/kaxil/status/1626886368138866688) who was asking about what features developers are looking for when using VSCode and Pycharm and Apache Airflow.
 
 In this post I will show you how you can configure mwaa-local-runner, an open source project that provides you with an easy way to get a local Apache Airflow environment up and running (that is configuration wide, aligned to the Amazon Managed Workflows for Apache Airflow service MWAA), together with some VSCode plugins.

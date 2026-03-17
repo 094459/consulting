@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "mwaa", "hybrid", "ECS Anywhere", "Amazon ECS", "ECSOp
 categories = ["Technical"]
 +++
 
-### Using Apache Airflow to orchestrate hybrid workflows
-
 In some recent discussions with customers, the topic of how open source is increasingly being used as a common mechanisms to help build re-usable solutions that can protect investments in engineering and development time, skills and that work across on premises and Cloud environment. In 2021 my [most viewed blog post](https://dev.to/aws/creating-a-multi-architecture-ci-cd-deployment-for-amazon-ecs-and-ecs-anywhere-15o3) talked about how you can build and deploy containerised applications, anywhere (Cloud, your data centre, other Clouds) and on anything (Intel and Arm). I wanted to combine the learnings from that post (and the code) and apply it to another topic I have been diving deeper into, Apache Airflow. I wanted to explore how you can combine the two to see how you can start to build data pipelines that work across hybrid architectures seamlessly.
 
 **Use Case**

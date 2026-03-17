@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "mwaa", "Security"]
 categories = ["Technical"]
 +++
 
-**Reading and writing data across different AWS accounts in you Apache Airflow DAGs**
-
 As regular readers will know, I sometimes lurk in the [Apache Airflow slack channel](https://apache-airflow.slack.com/) to see what is going on. If you are new to Apache Airflow, or want to get a deeper understanding then I highly recommend spending some time here. The community is super welcoming and eager to help new participants.
 
 It was during a recent session I came across an interesting problem that one of the builders was having, which was how to access (read/write) data in an S3 bucket which was in a different account to the one hosting Amazon Managed Workflows for Apache Airflow (MWAA). 

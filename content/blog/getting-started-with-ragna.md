@@ -6,7 +6,6 @@ tags = []
 categories = ["Technical"]
 +++
 
-## Unboxing Ragna: Getting hands on and making it to work with Amazon Bedrock
 
 I am always on the look out for interesting new projects to check out, and this week I came across [Ragna](https://ragna.chat/en/stable/), an open source Retrieval Augmented Generation [RAG](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html) orchestration framework. It is a new project with a committed and active community, so I wanted to find out more about this project.
 

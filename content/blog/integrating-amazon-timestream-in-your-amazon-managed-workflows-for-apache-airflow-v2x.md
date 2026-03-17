@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "mwaa", "Amazon Timestream", "datawrangler"]
 categories = ["Technical"]
 +++
 
-**Integrating with Amazon Timestream in your Apache Airflow DAGs**
-
 Amazon Timestream is a fast, scalable, and serverless time series database service perfect for use cases that generate huge amounts of events per day, optimised to make it faster and more cost effective that using relational databases.
 
 I have been playing around with Amazon Timestream to prepare for a talk I am doing with some colleagues, and wanted to see how I could integrate it with other AWS services in the context of leveraging some of the key capabilities of Amazon Timestream. For example, you might have a use case where you want to benefit from some of the powerful capabilities of the Timestream query engine to create/export data that you want to store within a data lake. Maybe you need just a subset of the data within a data warehouse such as Amazon Redshift, or perhaps you need to make the data available within Timestream to other systems and applications.

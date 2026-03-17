@@ -7,8 +7,6 @@ categories = ["Technical"]
 canonicalUrl = "https://dev.to/aws/automating-made-easy-with-kiro-cli-1p78"
 +++
 
-## What are you automating with generative AI ?
-
 I have spoken at many events this year sharing how I see developers using AI coding assistants like [Kiro]( https://kiro.dev/downloads/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) and [Kiro CLI](https://kiro.dev/cli/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el). The top use case was debugging code, and I wrote about that in [Debugging and troubleshooting issues with AI coding assistants](https://dev.to/aws/debugging-and-troubleshooting-issues-with-kiro-cli-and-amazon-q-developer-40ae). In this post I am going to talk about another very common use case, automation. I will share a couple of things that I found trivial to automate with the help of Kiro, but also some unexpected things I learned along the way.
 
 ## Automating tasks

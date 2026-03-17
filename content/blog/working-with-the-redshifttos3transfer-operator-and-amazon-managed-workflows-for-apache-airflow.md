@@ -6,8 +6,6 @@ tags = ["Apache Airflow", "mwaa", "Amazon Redshift"]
 categories = ["Technical"]
 +++
 
-### Introduction
-
 Inspired by a recent conversation within the Apache Airflow open source slack community, I decided to channel the inner terrier within me to tackle this particular issue, around getting an Apache Airflow operator (the protagonist for this post) to work. 
 
 I found the perfect catalyst in the way of [the original launch post](https://aws.amazon.com/blogs/aws/introducing-amazon-managed-workflows-for-apache-airflow-mwaa/) of Amazon Managed Workflows for Apache Airflow (MWAA). As is often the way, diving into that post (creating a workflow to take some source files, transform them and then move them into Amazon Redshift) led me down some unexpected paths to here, this post.

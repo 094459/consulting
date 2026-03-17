@@ -6,8 +6,6 @@ tags = []
 categories = ["Technical"]
 +++
 
-### Integrating Keycloak as my Identity Provider for IAM Identity Centre: Part one, deploying Keycloak on AWS
-
 > "It was the best of times, it was the worst of times..." A Tale of Two Cities
 
 It started out innocently enough. As part of working on a new blog post, I needed a way to use an open source tool called [saml2aws](https://github.com/Versent/saml2aws) that generates AWS short lived credentials that you can use to access your AWS resources. This is a pretty common pattern, and a good practice to do and for many organisations this means they integrate with their "user directory" - sometimes this might be something like Active Directory, or an LDAP server. AWS IAM Identity Centre (which is the new name for AWS Single Sign-On) allows you to integrate those identity providers into your AWS Account, allowing your users to authenticate against that user directory and then get access to AWS resources. 

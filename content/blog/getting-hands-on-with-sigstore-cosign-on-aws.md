@@ -6,8 +6,6 @@ tags = ["Amazon ECR", "AWS KMS", "Cosign", "Sigstore", "Docker", "sget"]
 categories = ["Technical"]
 +++
 
-### Getting hands on with Sigstore Cosign on AWS
-
 I am currently putting together some content around how you can use a number of open source tools to help build a stronger defence against common software supply chain attacks. In this blog post, I look at emerging tools from Sigstore, and focus in this post on Cosign, a tool that supports container image signing, verification, and storage in an Open Container Initiative (OCI) registry. Cosign aims to make signatures frictionless. I will look at other tools in future posts.
 
 This blog post is not intended to cover the broader topics around supply chain security. I will cover that in separate posts and talks. This is intended to dive deeper into the tools and explore how you put into practice some of the concepts.
